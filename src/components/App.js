@@ -9,8 +9,8 @@ const App = () => {
   // do not remove the two buttons or change their id
   return (
     <div id="main">
-      <button onclick={handleClick} id="button-a">Button A</button>
-      <button onclick={handleClick} id="button-b">Button B</button>
+      <button onClick={handleClick} id="button-a">Button A</button>
+      <button onClick={handleClick} id="button-b">Button B</button>
     </div>
   )
 }
